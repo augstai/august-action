@@ -1,6 +1,6 @@
 # August Cyber GitHub Action (`augstai/august-action`)
 
-Autonomous pull-request authorization, API boundary, and MCP security gate powered by [August Cyber](https://august.so) (`august` CLI `v0.5.0`).
+Autonomous pull-request authorization, API boundary, and MCP security gate powered by [August Cyber](https://august.so) (`august` CLI `v0.6.0`).
 
 Diffs routes and MCP tool handlers changed in a pull request, probes cross-account access across two test actors against a local build or a scope-locked August Sandbox, emits inline GitHub annotations, and fails the check (`exit 2`) if real cross-tenant exposure is reproduced.
 
